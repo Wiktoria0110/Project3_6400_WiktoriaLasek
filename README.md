@@ -10,21 +10,21 @@ Real keyword data from academic articles (`data/keywords_data.csv`). Each row re
 ```
 pip install -r requirements.txt
 ```
-Then open and run `Project 3 Notebook.ipynb` in Jupyter.
+Then open and run `notebook.ipynb` in Jupyter.
 
 ## Key Results
 - 248 unique keywords and 2,141 co-occurrence relationships
 - Most central keyword: "organizational behavior" (degree: 166, strength: 265)
 - Strongest pair: "organizational behavior" & "organizational effectiveness" (co-occurred 11 times)
-- Full interpretation in `Project 3 Report.pdf`
+- Full interpretation in `report.pdf`
 
 ## Repository Contents
 
 | File/Folder | Description |
 |---|---|
 | `data/keywords_data.csv` | Raw dataset — do not modify |
-| `Project 3 Notebook.ipynb` | Jupyter Notebook with all code, outputs, and commentary |
-| `Project 3 Report.pdf` | Written report interpreting the results |
+| `notebook.ipynb` | Jupyter Notebook with all code, outputs, and commentary |
+| `report.pdf` | Written report interpreting the results |
 | `outputs/figures/` | Saved plots |
 | `requirements.txt` | Python dependencies |
 | `.gitignore` | Files excluded from version control |
